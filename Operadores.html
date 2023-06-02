@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>oi</title>
+<title>Operadores</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13116,16 +13116,77 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1>OLÁ</h1>
+<h1 id="1.--Operadores">1.  Operadores<a class="anchor-link" href="#1.--Operadores">&#182;</a></h1><p>Na programação, operadores são simbolos que dizem ao interpretador para realizar manipulações matemáticas,lógicas e de comparação específicas</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2>Operadores aritméticos</h2><p>Assim como na matemática podemos realizar operações de soma, subtração, divisão e outras, em python também temos essa possibilidade</p>
+<table>
+<thead><tr>
+<th>Operador</th>
+<th>Símbolo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adição</td>
+<td>+</td>
+<td>Realiza a adição de dois valores ou concatenação de duas sequências.</td>
+</tr>
+<tr>
+<td>Subtração</td>
+<td>-</td>
+<td>Realiza a subtração de dois valores.</td>
+</tr>
+<tr>
+<td>Multiplicação</td>
+<td>*</td>
+<td>Realiza a multiplicação de dois valores ou duplica uma sequência.</td>
+</tr>
+<tr>
+<td>Divisão</td>
+<td>/</td>
+<td>Realiza a divisão de dois valores.</td>
+</tr>
+<tr>
+<td>Divisão inteira</td>
+<td>//</td>
+<td>Realiza a divisão de dois valores e retorna a parte inteira do resultado.</td>
+</tr>
+<tr>
+<td>Resto da divisão</td>
+<td>%</td>
+<td>Retorna o resto da divisão entre dois valores.</td>
+</tr>
+<tr>
+<td>Exponenciação</td>
+<td>**</td>
+<td>Realiza a exponenciação de um valor pelo outro.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4>Exemplos práticos</h4>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Olá&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span> <span class="mi">5</span> <span class="o">+</span> <span class="mi">4</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13142,11 +13203,385 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Olá
+<pre>9
 </pre>
 </div>
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span> <span class="mi">5</span> <span class="o">-</span> <span class="mi">4</span> <span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span> <span class="p">(</span> <span class="mi">5</span> <span class="o">**</span> <span class="mi">4</span> <span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>625
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="2.-Operadores-de-atribui&#231;&#227;o">2. Operadores de atribui&#231;&#227;o<a class="anchor-link" href="#2.-Operadores-de-atribui&#231;&#227;o">&#182;</a></h1><table>
+<thead><tr>
+<th>Operador</th>
+<th>Símbolo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atribuição</td>
+<td>=</td>
+<td>Atribui um valor a uma variável.</td>
+</tr>
+<tr>
+<td>Adição e atribuição</td>
+<td>+=</td>
+<td>Realiza a adição entre duas variáveis e atribui o resultado à primeira.</td>
+</tr>
+<tr>
+<td>Subtração e atribuição</td>
+<td>-=</td>
+<td>Realiza a subtração entre duas variáveis e atribui o resultado à primeira.</td>
+</tr>
+<tr>
+<td>Multiplicação e atribuição</td>
+<td>*=</td>
+<td>Realiza a multiplicação entre duas variáveis e atribui o resultado à primeira.</td>
+</tr>
+<tr>
+<td>Divisão e atribuição</td>
+<td>/=</td>
+<td>Realiza a divisão entre duas variáveis e atribui o resultado à primeira.</td>
+</tr>
+<tr>
+<td>Divisão inteira e atribuição</td>
+<td>//=</td>
+<td>Realiza a divisão inteira entre duas variáveis e atribui o resultado à primeira.</td>
+</tr>
+<tr>
+<td>Resto da divisão e atribuição</td>
+<td>%=</td>
+<td>Calcula o resto da divisão entre duas variáveis e atribui o resultado à primeira.</td>
+</tr>
+<tr>
+<td>Exponenciação e atribuição</td>
+<td>**=</td>
+<td>Realiza a exponenciação entre duas variáveis e atribui o resultado à primeira.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">a</span> <span class="o">+=</span> <span class="mi">1</span> 
+<span class="nb">print</span> <span class="p">(</span><span class="n">a</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4>Por exemplo</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="3.Operadores-de-compara&#231;&#227;o">3.Operadores de compara&#231;&#227;o<a class="anchor-link" href="#3.Operadores-de-compara&#231;&#227;o">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<table>
+<thead><tr>
+<th>Operador</th>
+<th>Símbolo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Igual a</td>
+<td>==</td>
+<td>Verifica se dois valores são iguais.</td>
+</tr>
+<tr>
+<td>Diferente de</td>
+<td>!=</td>
+<td>Verifica se dois valores são diferentes.</td>
+</tr>
+<tr>
+<td>Maior que</td>
+<td>&gt;</td>
+<td>Verifica se o valor da esquerda é maior que o valor da direita.</td>
+</tr>
+<tr>
+<td>Menor que</td>
+<td>&lt;</td>
+<td>Verifica se o valor da esquerda é menor que o valor da direita.</td>
+</tr>
+<tr>
+<td>Maior ou igual a</td>
+<td>&gt;=</td>
+<td>Verifica se o valor da esquerda é maior ou igual ao valor da direita.</td>
+</tr>
+<tr>
+<td>Menor ou igual a</td>
+<td>&lt;=</td>
+<td>Verifica se o valor da esquerda é menor ou igual ao valor da direita.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4>Por exemplo</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="4.Operadores-l&#243;gicos">4.Operadores l&#243;gicos<a class="anchor-link" href="#4.Operadores-l&#243;gicos">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<table>
+<thead><tr>
+<th>Operador</th>
+<th>Símbolo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E lógico</td>
+<td>and</td>
+<td>Retorna True se ambas as expressões booleanas forem verdadeiras.</td>
+</tr>
+<tr>
+<td>OU lógico</td>
+<td>or</td>
+<td>Retorna True se pelo menos uma das expressões booleanas for verdadeira.</td>
+</tr>
+<tr>
+<td>NÃO lógico</td>
+<td>not</td>
+<td>Inverte o valor booleano de uma expressão.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4>Por exemplo</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="5.Operadores-identidade">5.Operadores identidade<a class="anchor-link" href="#5.Operadores-identidade">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<table>
+<thead><tr>
+<th>Operador</th>
+<th>Símbolo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>É</td>
+<td>is</td>
+<td>Retorna True se as duas variáveis referenciarem o mesmo objeto na memória.</td>
+</tr>
+<tr>
+<td>Não é</td>
+<td>is not</td>
+<td>Retorna True se as duas variáveis referenciarem objetos diferentes na memória.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4>Por exemplo</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="6.Operadores-de-associa&#231;&#227;o">6.Operadores de associa&#231;&#227;o<a class="anchor-link" href="#6.Operadores-de-associa&#231;&#227;o">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<table>
+<thead><tr>
+<th>Operador</th>
+<th>Símbolo</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pertence a</td>
+<td>in</td>
+<td>Retorna True se um valor estiver presente em uma sequência.</td>
+</tr>
+<tr>
+<td>Não pertence a</td>
+<td>not in</td>
+<td>Retorna True se um valor não estiver presente em uma sequência.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4>Por exemplo</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
 </div>
 </div>
 

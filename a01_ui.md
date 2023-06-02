@@ -9,16 +9,7 @@ format:
         - simplex # Tema do bootwatch
         - custom_callouts.scss
 ---
-::: {.callout-objetivo .icon .callout-note collapse="true"}
-Nesta lição pretendemos que você aprenda:
 
-- Qual o modelo básico de um dispositivo de processamento de dados
-- Qual a diferença entre programa, aplicação e sistema
-- O que são o hardware e o software
-- O que são as Unidades de: Entrada, Saída, Memória, Controle, Lógica e Aritmética e de Processamento
-- O que são e qual a diferença entre softwares de sistema, de aplicação e de serviços
-
-:::
 
 # 1.  Encontre um Chef que saiba de receitas.
 Imagine que você é o dono de um restaurante e possui uma quantidade importante de receitas, porém você não e chef de cozinha e precisará de alguém com o conhecimento necessário para poder executar as suas receitas, bom esse chef é o seu computador e as receitas todas aquelas instruções que daremos ao computador utilizando uma **Lógica de Programação.**

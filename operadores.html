@@ -13314,11 +13314,11 @@ Resultado da Exponenciação:
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Resultado da Divisão Inteira: &quot;</span><span class="p">)</span>
-<span class="nb">print</span> <span class="p">(</span> <span class="mi">5</span> <span class="o">//</span> <span class="mi">2</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Resultado do Resto da divisão: &quot;</span><span class="p">)</span>
+<span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Resultado do Resto da divisão: &quot;</span><span class="p">)</span>
-<span class="nb">print</span> <span class="p">(</span> <span class="mi">5</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Resultado da Divisão Inteira: &quot;</span><span class="p">)</span>
+<span class="nb">print</span> <span class="p">(</span> <span class="mi">7</span> <span class="o">//</span> <span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13335,10 +13335,10 @@ Resultado da Exponenciação:
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Resultado da Divisão Inteira: 
-2
-Resultado do Resto da divisão: 
+<pre>Resultado do Resto da divisão: 
 1
+Resultado da Divisão Inteira: 
+3
 </pre>
 </div>
 </div>
@@ -13346,6 +13346,16 @@ Resultado do Resto da divisão:
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para essas duas operações, talvez uma imagem ajude.</p>
+<p>Nesse exemplo, o resto da divisão é o que fica à esquerda e a divisão inteira à direita.</p>
+<p><img src="http://www.vision.ime.usp.br/~pmiranda/mac0115_2s20/aulas/P1/ex_div.png" alt="Texto alternativo" width="300" height="300"></p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -14282,6 +14292,14 @@ Caso ela possua duas pizzas disponíveis, ela precisa resultar em FALSO</h5>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Como o operador "NOT" é responsável por inverter os valores lógicos, a operação acima que resultaria em "True", agora resultou em False.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p><h5>Conclusão do capítulo: </h5>
 Neste capítulo, exploramos os operadores lógicos em Python e sua importância na construção de expressões lógicas complexas. Compreendemos como os operadores lógicos, como "and" (e), "or" (ou) e "not" (não), nos permitem combinar condições e avaliar múltiplas expressões lógicas ao mesmo tempo.</p>
 
@@ -14291,7 +14309,7 @@ Neste capítulo, exploramos os operadores lógicos em Python e sua importância 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="5-.Operadores-identidade.">5 .Operadores identidade.<a name="opIdent" /><a class="anchor-link" href="#5-.Operadores-identidade.">&#182;</a></h1>
+<h1 id="5-Operadores-identidade.">5 Operadores identidade.<a name="opIdent" /><a class="anchor-link" href="#5-Operadores-identidade.">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14523,7 +14541,7 @@ Neste capítulo, exploramos os operadores de identidade em Python e sua importâ
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">texto</span> <span class="o">=</span> <span class="s2">&quot;Verificação se a palavra AÇUCAR está presente nessa string&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">texto</span> <span class="o">=</span> <span class="s2">&quot;Verifique se a palavra AÇUCAR está presente nessa string&quot;</span>
 
 <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;AÇUCAR&quot;</span> <span class="ow">in</span> <span class="n">texto</span><span class="p">)</span>
 </pre></div>
@@ -14556,7 +14574,7 @@ Neste capítulo, exploramos os operadores de identidade em Python e sua importâ
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Acabamos de verificar se a palavra AÇUCAR existe na string da variável texto e tivemos um retorno "verdadeiro" pois ela definitivamente existe</p>
 <hr>
-<h5>Podemos fazer a verificar para ver se ela NÃO ESTÁ
+<h5>Podemos fazer a verificação para ver se ela NÃO ESTÁ
 Veja abaixo:</h5>
 </div>
 </div>

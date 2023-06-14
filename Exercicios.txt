@@ -1,0 +1,36 @@
+
+
+Operadores aritméticos
+Exercício: Calculo Simples
+Realize a operação 1300 + 4700 e exiba o resultado
+
+Exercício: Multiplicação de valores
+Crie um programa que solicite ao usuário dois valores inteiros, faça a multiplicação deles e exiba o resultado da multiplicação
+
+Exercício: Cálculo da Média
+Crie um programa que solicite ao usuário três notas (entre 0 e 10) e exiba a média aritmética dessas notas.
+
+
+Operadores de atribuição
+Exercício: Aumento de Salário
+Crie um programa que solicite ao usuário o valor do salário atual e o percentual de aumento, e exiba o novo valor do salário após o aumento.
+
+Exercício: Atualização de Estoque
+Crie um programa que solicite ao usuário a quantidade atual de um produto em estoque e a quantidade que será adicionada, e exiba o novo valor do estoque após a atualização.
+
+Exercício: Contador de Pontos
+Crie um programa que solicite ao usuário a quantidade atual de pontos em um jogo e a quantidade de pontos que serão adicionados, e exiba a nova pontuação total.
+
+
+Operadores de comparação
+Exercicio: Verificação de iguais
+Crie um programa que solicite ao usuário duas palavras e faça um programa que compare essas duas palavras e retorne "True" caso elas sejam iguais e "False" caso elas sejam diferentes
+
+Exercicio: Verificação de iguais
+Crie um programa que solicite ao usuário duas palavras e faça um programa que compare essas duas palavras e retorne "False" caso elas sejam iguais e "True" caso elas sejam diferentes
+
+Operadores lógicos
+Exercicio: Crie duas variáveis com booleanos de valor True e utilize um operador lógico para que o resultado exibido também seja True
+
+Exercicio: Crie duas variáveis, uma com o valor True e outra com False, utilize um operador lógico para que o resultado exibido também seja True
+ 
